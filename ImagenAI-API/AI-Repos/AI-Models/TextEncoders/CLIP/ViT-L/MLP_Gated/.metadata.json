@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "CLIP-Registers-Gated_MLP-ViT-L-14",
+    "name": "CLIP Registers Gated MLP ViT-L-14 Text Encoder",
+    "url": "https://huggingface.co/zer0int/CLIP-Registers-Gated_MLP-ViT-L-14",
+    "repo": "zer0int/CLIP-Registers-Gated_MLP-ViT-L-14",
+    "files": [
+        {
+            "remote": "ViT-L-14-REG-TE-only-balanced-HF-format-ckpt12.safetensors",
+            "local": "CLIP_Registers_Gated_MLP_TE_Only.safetensors"
+        }
+    ],
+    "description": "CLIP Registers Gated MLP ViT-L-14 Text Encoder is..."
+}

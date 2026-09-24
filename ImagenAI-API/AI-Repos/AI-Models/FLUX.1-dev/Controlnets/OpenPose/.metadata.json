@@ -1,0 +1,18 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-Open-Pose-controlnet",
+    "name": "FLUX.1-dev Open Pose controlnet",
+    "url": "https://huggingface.co/raulc0399/flux_dev_openpose_controlnet",
+    "repo": "raulc0399/flux_dev_openpose_controlnet",
+    "files": [
+        {
+            "remote": "model.safetensors",
+            "local": "FLUX.1_dev_controlnet_openpose_beta.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/controlnet/FLUX.1-dev/"
+    },
+    "description": "FLUX.1-dev Open Pose controlnet is..."
+}

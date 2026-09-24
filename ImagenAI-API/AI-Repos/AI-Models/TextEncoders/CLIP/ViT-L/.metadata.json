@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "CLIP_L-ViT-L-14",
+    "name": "CLIP_L ViT-L-14 Text Encoder",
+    "url": "https://huggingface.co/comfyanonymous/flux_text_encoders",
+    "repo": "comfyanonymous/flux_text_encoders",
+    "files": [
+        {
+            "remote": "clip_l.safetensors",
+            "local": "CLIP_L_TE_Only.safetensors"
+        }
+    ],
+    "description": "CLIP_L ViT-L-14 Text Encoder is..."
+}

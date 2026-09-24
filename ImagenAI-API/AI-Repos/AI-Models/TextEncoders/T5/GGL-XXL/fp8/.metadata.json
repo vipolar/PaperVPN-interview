@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "Google-T5xxl-text-encoder-fp8",
+    "name": "Google T5xxl fp8_e4m3fn Text Encoder",
+    "url": "https://huggingface.co/mcmonkey/google_t5-v1_1-xxl_encoderonly",
+    "repo": "mcmonkey/google_t5-v1_1-xxl_encoderonly",
+    "files": [
+        {
+            "remote": "t5xxl_fp8_e4m3fn.safetensors",
+            "local": "Google_T5xxl_fp8_e4m3fn_TE_Only.safetensors"
+        }
+    ],
+    "description": "Google T5xxl fp8_e4m3fn Text Encoder is..."
+}

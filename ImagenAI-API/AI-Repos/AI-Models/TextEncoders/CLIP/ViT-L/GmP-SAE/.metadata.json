@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "CLIP-SAE-GmP-ViT-L-14",
+    "repo": "zer0int/CLIP-SAE-ViT-L-14",
+    "url": "https://huggingface.co/zer0int/CLIP-SAE-ViT-L-14",
+    "name": "CLIP SAE-GmP ViT-L-14 Text Encoder",
+    "files": [
+        {
+            "remote": "ViT-L-14-GmP-SAE-TE-only.safetensors",
+            "local": "CLIP_SAE_GmP_TE_Only.safetensors"
+        }
+    ],
+    "description": "CLIP SAE-GmP ViT-L-14 Text Encoder is..."
+}

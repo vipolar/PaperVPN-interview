@@ -1,0 +1,26 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-Depth-dev",
+    "name": "FLUX.1 Depth official",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Depth-dev",
+    "repo": "black-forest-labs/FLUX.1-Depth-dev",
+    "files": [
+        {
+            "remote": "flux1-depth-dev.safetensors",
+            "local": "FLUX.1_depth_dev.safetensors"
+        },
+        {
+            "remote": "model_index.json",
+            "local": "model_index.json"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/diffusion_models/FLUX.1-dev/",
+        "Automatic1111": "models/Stable-diffusion/FLUX.1-dev/",
+        "InvokeAI": "models/ldm/stable-diffusion-v1/FLUX.1-dev/",
+        "ForgeUI": "models/Stable-diffusion/FLUX.1-dev/",
+        "Kohya": "models/Stable-diffusion/FLUX.1-dev/"
+    },
+    "description": "FLUX.1 Depth is..."
+}

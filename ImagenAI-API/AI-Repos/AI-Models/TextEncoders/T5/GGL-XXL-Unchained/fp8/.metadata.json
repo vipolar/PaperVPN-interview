@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "Google-T5xxl-Unchained-text-encoder-fp8",
+    "name": "Google T5xxl Unchained fp8_e4m3fn Text Encoder",
+    "url": "https://huggingface.co/Kaoru8/T5XXL-Unchained",
+    "repo": "Kaoru8/T5XXL-Unchained",
+    "files": [
+        {
+            "remote": "t5xxl-unchained-f8.safetensors",
+            "local": "Google_T5xxl_Unchained_fp8_e4m3fn_TE_Only.safetensors"
+        }
+    ],
+    "description": "Google T5xxl Unchained fp8_e4m3fn Text Encoder is..."
+}

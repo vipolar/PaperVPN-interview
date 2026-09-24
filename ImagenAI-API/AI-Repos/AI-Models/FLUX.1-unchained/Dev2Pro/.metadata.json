@@ -1,0 +1,22 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-2-pro-full",
+    "name": "FLUX.1 dev-2-pro-full",
+    "url": "https://huggingface.co/bdsqlsz/flux1-dev2pro-single",
+    "repo": "bdsqlsz/flux1-dev2pro-single",
+    "files": [
+        {
+            "remote": "flux1-dev2pro.safetensors",
+            "local": "FLUX.1_dev_2_pro.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/diffusion_models/FLUX.1-unchained/",
+        "Automatic1111": "models/Stable-diffusion/FLUX.1-unchained/",
+        "InvokeAI": "models/ldm/stable-diffusion-v1/FLUX.1-unchained/",
+        "ForgeUI": "models/Stable-diffusion/FLUX.1-unchained/",
+        "Kohya": "models/Stable-diffusion/FLUX.1-unchained/"
+    },
+    "description": "The Flux-Dev2Pro model is a finetuned version of the Flux-Dev transformer, designed to improve the performance of LoRA (Low-Rank Adaptation) training on the original Flux-Dev model. The LoRA training on Flux-Dev often yields poor results due to the lack of guidance distillation, causing the LoRA training to diverge from the original training process. The Flux-Dev2Pro model addresses this issue by finetuning the Flux-Dev model for many steps, effectively recovering the Flux-Pro model from Flux-Dev. The LoRA trained on Flux-Dev2Pro is reported to yield much better results when applied to Flux-Dev, similar to the performance of LoRA trained on SDXL and applied to SDXL-turbo/lightning."
+}

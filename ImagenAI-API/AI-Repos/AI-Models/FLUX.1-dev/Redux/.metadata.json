@@ -1,0 +1,22 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-Redux-dev",
+    "name": "FLUX.1 Redux official",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-Redux-dev",
+    "repo": "black-forest-labs/FLUX.1-Redux-dev",
+    "files": [
+        {
+            "remote": "flux1-redux-dev.safetensors",
+            "local": "FLUX.1_redux_dev.safetensors"
+        },
+        {
+            "remote": "model_index.json",
+            "local": "model_index.json"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/style_models/FLUX.1-dev/"
+    },
+    "description": "FLUX.1 Redux is..."
+}

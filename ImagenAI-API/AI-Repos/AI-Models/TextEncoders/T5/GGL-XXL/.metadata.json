@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "Google-T5xxl-text-encoder",
+    "name": "Google T5xxl Text Encoder",
+    "url": "https://huggingface.co/mcmonkey/google_t5-v1_1-xxl_encoderonly",
+    "repo": "mcmonkey/google_t5-v1_1-xxl_encoderonly",
+    "files": [
+        {
+            "remote": "model.safetensors",
+            "local": "Google_T5xxl_TE_Only.safetensors"
+        }
+    ],
+    "description": "Google T5xxl Text Encoder is..."
+}

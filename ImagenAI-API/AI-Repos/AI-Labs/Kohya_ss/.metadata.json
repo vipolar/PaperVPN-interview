@@ -1,0 +1,57 @@
+{
+    "id": "kohya",
+    "type": "service",
+    "installed": "${instances}",
+    "name": "Kohya_ss GUI (sd3-flux.1 branch)",
+    "usage": "Select configuration files and models to link to the GUI.",
+    "disclaimer": "By default, Kohya_ss comes with no pre-installed models, clip, vae, or config files. It is up to you to link the downloaded files to appropriate directories through the dedicated symlink manager.",
+    "description": "Kohya is an open-source project that focuses on stable diffusion-based models for image generation and manipulation. It provides tools and scripts for training and fine-tuning models using techniques like LoRA (Linearly-Refined Accumulative Diffusion) and SDXL (Stable Diffusion with Cross-Lingual training).\nKohya's GUI (Graphical User Interface) allows users to configure training parameters, generate command-line commands, and train models with ease.",
+    "commands": {
+        "install": {
+            "deserializationThreshold": 3,
+            "allowMultipleInstances": false,
+            "launcher": "git clone --recursive https://github.com/bmaltais/kohya_ss.git ${instance_uuid}",
+            "blockOtherServices": {
+                "browser": ["install", "uninstall"],
+                "swarm": "launch"
+            },
+            "blockOtherCommands": ["launch", "update", "uninstall"],
+            "description": "This script installs the Kohya GUI on your system. It will download the necessary dependencies and set up the environment for you."
+        },
+        "update": {
+            "deserializationThreshold": 3,
+            "allowMultipleInstances": false,
+            "launcher": "./script.sh update",
+            "blockOtherServices": ["plaseholderservice"],
+            "blockOtherCommands": ["launch", "install", "uninstall"],
+            "description": "This script updates the Kohya GUI on your system. It will download the latest version of the software and apply any necessary patches."
+        },
+        "uninstall": {
+            "deserializationThreshold": 3,
+            "allowMultipleInstances": false,
+            "launcher": "./script.sh uninstall",
+            "blockOtherServices": ["plaseholderservice"],
+            "blockOtherCommands": ["install", "update", "launch"],
+            "description": "This script uninstalls the Kohya GUI from your system. It will remove all files and configurations related to the software."
+        },
+        "launch": {
+            "instance": "${installed}",
+            "deserializationThreshold": 3,
+            "allowMultipleInstances": true,
+            "launcher": "./script.sh launch",
+            "blockOtherServices": ["plaseholderservice"],
+            "blockOtherCommands": ["install", "update", "uninstall"],
+            "envVariables": {
+                "KOHYA_GUI_VERSION": "sd3-flux.1",
+                "KOHYA_GUI_PATH": "/opt/kohya_gui",
+                "KOHYA_GUI_CONFIG_DIR": "/etc/kohya_gui"
+            },
+            "cliArguments": {
+                "--port": 7864,
+                "--host": "localhost",
+                "--launch_mode": "none"
+            },
+            "description": "This script launches the Kohya GUI on your system. It will start the application and open the main window for you."
+        }
+    }
+}

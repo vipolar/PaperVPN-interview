@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "Google-T5xxl-Flan-text-encoder",
+    "name": "Google T5xxl Flan Text Encoder",
+    "url": "https://huggingface.co/google/flan-t5-xxl",
+    "repo": "google/flan-t5-xxl",
+    "files": [
+        {
+            "remote": "README.md",
+            "local": "README.md"
+        }
+    ],
+    "description": "Google T5xxl Flan Text Encoder is..."
+}

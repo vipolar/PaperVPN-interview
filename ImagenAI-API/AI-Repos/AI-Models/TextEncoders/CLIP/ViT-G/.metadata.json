@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "CLIP_G-ViT-G-14",
+    "name": "CLIP_G ViT-G-14 Text Encoder",
+    "url": "https://huggingface.co/OwlMaster/SD3New",
+    "repo": "OwlMaster/SD3New",
+    "files": [
+        {
+            "remote": "clip_g.safetensors",
+            "local": "CLIP_G_TE_Only.safetensors"
+        }
+    ],
+    "description": "CLIP_G ViT-G-14 Text Encoder is..."
+}

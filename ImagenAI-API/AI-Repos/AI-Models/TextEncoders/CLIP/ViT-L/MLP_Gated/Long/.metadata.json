@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "LongCLIP-Registers-Gated_MLP-ViT-L-14",
+    "name": "LongCLIP Registers Gated MLP ViT-L-14 Text Encoder",
+    "url": "https://huggingface.co/zer0int/LongCLIP-Registers-Gated_MLP-ViT-L-14",
+    "repo": "zer0int/LongCLIP-Registers-Gated_MLP-ViT-L-14",
+    "files": [
+        {
+            "remote": "Long-ViT-L-14-REG-TE-only-HF-format.safetensors",
+            "local": "LongCLIP_Registers_Gated_MLP_TE_Only.safetensors"
+        }
+    ],
+    "description": "LongCLIP Registers Gated MLP ViT-L-14 Text Encoder is..."
+}

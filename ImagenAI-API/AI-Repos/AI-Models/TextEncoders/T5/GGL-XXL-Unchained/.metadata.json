@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "Google-T5xxl-Unchained-text-encoder",
+    "name": "Google T5xxl Unchained Text Encoder",
+    "url": "https://huggingface.co/Kaoru8/T5XXL-Unchained",
+    "repo": "Kaoru8/T5XXL-Unchained",
+    "files": [
+        {
+            "remote": "t5xxl-unchained-f16.safetensors",
+            "local": "Google_T5xxl_Unchained_TE_Only.safetensors"
+        }
+    ],
+    "description": "Google T5xxl Unchained Text Encoder is..."
+}

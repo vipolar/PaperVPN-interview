@@ -1,0 +1,18 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-T5xxl-text-encoder-fp8-scaled",
+    "name": "FLUX.1-dev T5xxl fp8_e4m3fn scaled Text Encoder",
+    "url": "https://huggingface.co/comfyanonymous/flux_text_encoders",
+    "repo": "comfyanonymous/flux_text_encoders",
+    "files": [
+        {
+            "remote": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+            "local": "FLUX.1_dev_T5xxl_fp8_e4m3fn_scaled_TE_Only.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/text_encoders/FLUX.1-dev/"
+    },
+    "description": "FLUX.1-dev T5xxl fp8_e4m3fn scaled Text Encoder is..."
+}

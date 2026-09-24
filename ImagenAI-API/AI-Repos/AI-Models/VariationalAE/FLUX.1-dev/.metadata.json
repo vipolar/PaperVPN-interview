@@ -1,0 +1,18 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-Variational-AE",
+    "name": "FLUX.1-dev Variational AutoEncoder",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "repo": "black-forest-labs/FLUX.1-dev",
+    "files": [
+        {
+            "remote": "ae.safetensors",
+            "local": "FLUX.1-dev-VAE.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/vae/FLUX.1-dev/"
+    },
+    "description": "FLUX.1-dev Variational AutoEncoder is..."
+}

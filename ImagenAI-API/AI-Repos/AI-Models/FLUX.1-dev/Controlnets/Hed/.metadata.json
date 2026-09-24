@@ -1,0 +1,26 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-Hed-controlnet",
+    "name": "FLUX.1-dev Hed controlnet",
+    "url": "https://huggingface.co/XLabs-AI/flux-controlnet-collections",
+    "repo": "XLabs-AI/flux-controlnet-collections",
+    "files": [
+        {
+            "remote": "flux-hed-controlnet.safetensors",
+            "local": "FLUX.1_dev_controlnet_hed_v1.safetensors"
+        },
+        {
+            "remote": "flux-hed-controlnet_v2.safetensors",
+            "local": "FLUX.1_dev_controlnet_hed_v2.safetensors"
+        },
+        {
+            "remote": "flux-hed-controlnet-v3.safetensors",
+            "local": "FLUX.1_dev_controlnet_hed_v3.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/controlnet/FLUX.1-dev/"
+    },
+    "description": "FLUX.1-dev Hed controlnet is..."
+}

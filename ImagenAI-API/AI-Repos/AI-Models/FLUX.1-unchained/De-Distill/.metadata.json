@@ -1,0 +1,22 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "FLUX.1-dev-de-distill",
+    "name": "FLUX.1 dev de-distill",
+    "url": "https://huggingface.co/nyanko7/flux-dev-de-distill",
+    "repo": "nyanko7/flux-dev-de-distill",
+    "files": [
+        {
+            "remote": "consolidated_s6700.safetensors",
+            "local": "FLUX.1_dev_de_distill.safetensors"
+        }
+    ],
+    "paths": {
+        "ComfyUI": "models/diffusion_models/FLUX.1-unchained/",
+        "Automatic1111": "models/Stable-diffusion/FLUX.1-unchained/",
+        "InvokeAI": "models/ldm/stable-diffusion-v1/FLUX.1-unchained/",
+        "ForgeUI": "models/Stable-diffusion/FLUX.1-unchained/",
+        "Kohya": "models/Stable-diffusion/FLUX.1-unchained/"
+    },
+    "description": "Flux-dev-de-distill is an experiment to 'de-distill' guidance from the flux.1-dev model. The model was trained to remove the original distilled guidance and create true classifier-free guidance reworks. This model is not compatible with the diffusers pipeline, so users will need to use the provided inference script or manually add guidance during the iteration loop."
+}

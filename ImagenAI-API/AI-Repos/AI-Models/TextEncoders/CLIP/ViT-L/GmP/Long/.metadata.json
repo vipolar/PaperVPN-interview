@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "LongCLIP-GmP-ViT-L-14",
+    "name": "LongCLIP GmP ViT-L-14 Text Encoder",
+    "url": "https://huggingface.co/zer0int/LongCLIP-GmP-ViT-L-14",
+    "repo": "zer0int/LongCLIP-GmP-ViT-L-14",
+    "files": [
+        {
+            "remote": "Long-ViT-L-14-BEST-GmP-smooth-ft.safetensors",
+            "local": "LongCLIP_GmP_TE_Only.safetensors"
+        }
+    ],
+    "description": "LongCLIP GmP ViT-L-14 Text Encoder is..."
+}

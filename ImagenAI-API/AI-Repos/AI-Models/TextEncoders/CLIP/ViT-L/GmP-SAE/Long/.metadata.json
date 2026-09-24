@@ -1,0 +1,15 @@
+{
+    "type": "model",
+    "host": "huggingface",
+    "id": "LongCLIP-SAE-GmP-ViT-L-14",
+    "name": "LongCLIP SAE-GmP ViT-L-14 Text Encoder",
+    "url": "https://huggingface.co/zer0int/LongCLIP-SAE-ViT-L-14",
+    "repo": "zer0int/LongCLIP-SAE-ViT-L-14",
+    "files": [
+        {
+            "remote": "Long-ViT-L-14-GmP-SAE-TE-only.safetensors",
+            "local": "LongCLIP_SAE_GmP_TE_Only.safetensors"
+        }
+    ],
+    "description": "LongCLIP SAE-GmP ViT-L-14 Text Encoder is..."
+}
