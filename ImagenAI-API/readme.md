@@ -10,7 +10,7 @@ I guess the idea was admirable but the business model was not fully thought thro
 Long story short, I began developing this and the frontend (for which they promised to hire a dedicated designer later on,) at some point they realized that it was costing them too much and whatever they wanted from this being "completely their own" didn't really make much sense, and their contractors were actually getting by on runpod, mimicPC, and whatever else, nicely... so they scraped it and honestly for the better.  
 But it did let me do some interesting stuff while I was working on it...
 
-### So, let's get this going!
+## So, let's get this going!
 
 Inside [AI-Repos](./AI-Repos/) directory there are tons of ```.metadata.json``` files describing services, utilities, models, etc., (see [AI-Labs/Kohya_ss](./AI-Repos/AI-Labs/Kohya_ss/.metadata.json) for an example of a service or [AI-Models/Flux.1-dev](./AI-Repos/AI-Models/FLUX.1-dev/.metadata.json) for an example of a model) and the idea is for them to be hotswappable, modifiable, extendable... You can add a ```.metadata.json``` of your own, tell the API that you've done so and it would become available for you right away.  
 On startup the backend crawls through the [AI-Repos](./AI-Repos/) (set by ```STUDIO_BASE_DIR``` env variable) directory and finds all ```.metadata.json``` files available, parses them, and creates the master dictionary (representative of the ```STUDIO_BASE_DIR``` directory structure) that is cached in memory, from where the services, utilities, models, etc., can be called by the frontend.
