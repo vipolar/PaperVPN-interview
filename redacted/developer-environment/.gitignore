@@ -1,0 +1,8 @@
+.env
+/nginx
+/pgadmin
+/postgresdb
+/redacted-frontend
+/redacted-backend
+/.vscode
+/keycloak
