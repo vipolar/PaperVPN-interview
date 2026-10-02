@@ -8,7 +8,7 @@
 
 set -Eeuo pipefail
 
-export AWS_PROFILE=quazr_test_admin
+export AWS_PROFILE=pvpn_api_demo_test_admin
 export AWS_REGION=eu-central-1
 
 echo "Setting up AWS API demo environment..."
