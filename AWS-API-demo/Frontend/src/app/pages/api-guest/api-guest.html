@@ -1,0 +1,19 @@
+<div class="api-container">
+  @if (loading) {
+    <p class="status-loading">Loading data from API...</p>
+  }
+
+  @if (error) {
+    <p class="status-error">{{ error }}</p>
+  }
+
+  @if (response) {
+    <div class="response-card">
+      <h3>API Response</h3>
+      @if (response.message) {
+        <p><strong>Message:</strong> {{ response.message }}</p>
+      }
+      <pre>{{ response | json }}</pre>
+    </div>
+  }
+</div>

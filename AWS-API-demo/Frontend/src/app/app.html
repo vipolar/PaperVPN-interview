@@ -1,0 +1,14 @@
+<nav>
+  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+
+  <a routerLink="/api-user" routerLinkActive="active">User</a>
+  <a routerLink="/api-admin" routerLinkActive="active">Admin</a>
+
+@if (isAuthenticated) {
+  <button type="button" class="nav-btn" (click)="logout()">Sign-out</button>
+} @else {
+  <button type="button" class="nav-btn" (click)="login()">Sign-in</button>
+}
+</nav>
+
+<router-outlet />
